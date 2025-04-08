@@ -14,7 +14,7 @@ class EnergyDemandForecaster:
         self.metrics = {}
         
     def _create_sample_data(self, days=60):
-        """Create sample energy demand data for training if no data exists"""
+        """Create sample energy demand data for training since no data exists"""
         np.random.seed(42)
         
         # Generate dates for the past 60 days with hourly data
