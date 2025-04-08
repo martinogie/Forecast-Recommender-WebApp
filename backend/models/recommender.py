@@ -15,7 +15,7 @@ class RenewableEnergyRecommender:
         self.model_path = os.path.join(os.path.dirname(__file__), 'saved_models', 'recommender_model.pkl')
         
     def _create_sample_data(self):
-        """Create sample data for initial training if no data exists"""
+        """Create sample data for initial training since no data exists"""
         # Sample renewable energy products
         products = [
             {"id": 1, "name": "Solar Panel 300W", "category": "solar", "efficiency": 0.22, "price": 250},
