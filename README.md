@@ -1,4 +1,4 @@
-# Forecast & Recomender Web Application
+# Forecast & Recommender Web Application
 
 A comprehensive web application for renewable energy products with intelligent recommendations and energy demand forecasting platform.
 
